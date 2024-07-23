@@ -46,9 +46,7 @@ var swiper = new Swiper(".mySwiper", {
 
 });
 }
-
-swiperAnimation();
-page4Animation();
+function loader(){
 
 var loader = document.querySelector('#loader')
 setTimeout(function(){
@@ -57,5 +55,12 @@ setTimeout(function(){
 
 
 },3200)
+}
+
+
+swiperAnimation();
+page4Animation();
+loader();
+
 
 
