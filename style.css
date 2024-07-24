@@ -795,7 +795,7 @@ margin-top:.2vh;
 #footer-div {
   height: 20vh;
   width: 100%;
-  background-color: #f4681c;
+  /* background-color: #f4681c; */
   display: flex;
 align-items: center;
 justify-content: space-between;
